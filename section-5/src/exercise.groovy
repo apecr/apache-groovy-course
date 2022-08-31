@@ -44,3 +44,5 @@ println mapDays.getClass().name
 assert mapDays.size() == 7
 
 mapDays.forEach((key, day) -> println "$key: $day")
+
+println mapDays.values()
